@@ -1,8 +1,12 @@
+import ProjectSideBar from "./components/ProjectSideBar.jsx";
+import NewProject from "./components/NewProject.jsx";
+
 function App() {
   return (
-    <>
-      <h1 className="my-8 text-center text-5xl font-bold">Hello World</h1>
-    </>
+    <div className="min-h-screen flex gap-10">
+<ProjectSideBar/>
+      <NewProject/>
+    </div>
   );
 }
 
