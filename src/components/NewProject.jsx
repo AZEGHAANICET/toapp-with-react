@@ -29,7 +29,7 @@ function save(){
 
 
 
-  return <div className="w-1/3 mt-10 bg-slate-200 p-10 h-1/2 rounded-2xl">
+  return <div className="w-1/3 mt-10 bg-stone-800 p-10 h-1/2 rounded-2xl">
     <ul className="flex justify-between">
       <li><Button color="bg-orange-400" onClick={save}
       >Save</Button></li>
